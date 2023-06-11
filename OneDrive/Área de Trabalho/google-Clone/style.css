@@ -1,0 +1,72 @@
+body {
+    background-color: hsla(45, 1%, 50%, .2);
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav-bar {
+    width: 100vw;
+
+    display: flex;
+    justify-content: end;
+    
+
+}
+
+.itens-navegacao {
+    color: wheat;
+    min-width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3 {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(250, 250, 250);
+    border-radius: 50px ;
+    transition: .6s;
+    cursor: pointer;
+}
+.itens-navegacao h3:hover {
+    background-image: linear-gradient(#21342121,#4e4f4c,#b1afaf32) ;
+}
+.main {
+    
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    color: hsla(4, 91%, 10%, .4) ;
+    font-size: 10vh;
+    font-style: italic;
+    background-image: linear-gradient(#221324,#221199,#889999);
+    border-radius: 65% 15% 12%;
+    text-shadow: 10px 10px rgb(213, .7, 99);
+    
+}
+
+.pesquisa {
+    
+    width: 35%;
+    height: 20px;
+    border-radius: 15px;
+    border-style: none;
+    margin: 20px;
+    cursor: pointer;
+    background-color: hsla(45, 1%, 50%, .3);
+}
+.form {
+    
+    width: 100em;
+    display: flex;
+    justify-content: center;
+
+}
