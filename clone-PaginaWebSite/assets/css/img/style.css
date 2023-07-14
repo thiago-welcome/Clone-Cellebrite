@@ -1,0 +1,121 @@
+:root {
+    --cor-fundo : rgb(34, 31, 37);
+    --cor-hover : rgb(118, 180, 147);
+    --cor-primaria : rgb(231, 241, 236);
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 40px;
+    background: var(--cor-hover);
+
+}
+
+code {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    padding: 16px;
+    margin-top: 34px;
+    transition: .150ms;
+    
+}
+code:hover {
+    background-color: rgb(55, 54, 54);
+    border-radius: 10px;
+    background-color: rgb(72, 72, 72);
+}
+.dp-menu {
+    list-style-type: none;
+    padding: 0;
+   
+}
+.dp-menu ul {
+    background: var(--cor-fundo); /*Aqui estamos chamando [--cor-fundo] cor do fundo na configuração de cima*/
+
+}
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+    margin: 10px;
+    font-size: 23px;
+    padding: 0 1.2rem;
+    
+}
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+   
+}
+/*Sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left:0;
+    position:absolute;
+    border-radius: 15px;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+    background-color: var(--cor-fundo);
+}
+.dp-menu ul ul {
+    width: 190px;
+}
+.dp-menu ul ul li a {
+    display: block;
+}
+.button{ 
+    width: 150px;
+    height: 2rem;
+}
+.button,input {
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 2rem;
+    background-color: var(--cor-primaria);
+    transition: .150ms;
+   
+}
+.button, input:hover {
+    background-color: var(--cor-hover);
+}
+
+
+/*Container*/
+
+main{
+    background-image: linear-gradient(#000063, #00000221), url(cellebrite-logo-light.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+
+}
+.conteiner{
+    margin: 0 4.9rem;
+    width: 65%;
+    min-width: 25%;
+}
+.world, p {
+    font-size: 26px;
+    margin: 2px;
+    letter-spacing: -1px;
+  
+}
+.button-01 {
+    margin-top: 10vh;
+}
+
